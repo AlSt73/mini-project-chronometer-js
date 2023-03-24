@@ -1,0 +1,77 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #555555;
+}
+
+.main {
+    text-align: center;
+    padding: 1em;
+}
+
+.main h1 {
+    font-size: 53px;
+    color: white;
+    text-shadow: 3px 3px 3px #ede8649d;
+    box-shadow: 3px 3px 23px rgb(220, 214, 214);
+    background-color: #0e1010;
+    padding: 13px;
+    border-radius: 2%;
+}
+
+.main #contador{
+    font-size:53px;
+    color: #ede964f1;
+    text-shadow: 3px 3px 3px #141417;
+    border-radius: 2%;
+    background-color: #6ec0b910;
+    padding: 33px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main .div-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns button {
+    padding: 7px;
+    margin-left: 25px;
+    font-size: 33px;
+    padding: 23px;
+    text-shadow: 1px 2px 3px #141417;
+    color: #ede964f1;
+    background-color: #6ec0b947;
+    border: 0;
+    border-radius: 30%;
+    transition: all 0.7s;
+}
+.btns button:hover {
+    transform: scale(1.2,1.1);
+}
+
+.show-mark{
+    font-size: 33px;
+    text-shadow: 1px 2px 3px #141417;
+    color: #ede964f1;
+}
+.show-mark li{
+    list-style: none;
+    text-transform: uppercase;
+    transition: 1s transform;
+    padding: 13px;
+}
+.show-mark li:hover{
+    transform: scale(1.2,1.1);
+    background-color: #f7f5f55b;
+    border-radius: 30%;
+}
