@@ -72,7 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
         let obj = markList.map((i, e) => {
 
 
-            return "<ul><li>vuelta="+(e+1)+" | "+" hora="+i.hora+"</li></ul>";
+            return `<ul>
+            <li class="li-animated">
+            <li>${(e + 1)}</li>
+            <li>${i.hora}</li>
+            </li>
+            </ul>
+            `
         }).join("");
         showMark.innerHTML = obj;
     }

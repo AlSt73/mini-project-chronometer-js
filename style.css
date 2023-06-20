@@ -1,6 +1,5 @@
-
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f3f3f3;
 }
 
@@ -11,25 +10,28 @@ body {
 
 .main h1 {
     font-size: 53px;
-    color: white;
-    text-shadow: 3px 3px 3px #ede8649d;
-    background-color: #0e1010;
+    color: #ede964f1;
+    text-shadow: 3px 3px 3px #0e1010;
+    /* background-color: #0e1010; */
     padding: 13px;
     border-radius: 2%;
 }
 
-.main #contador{
-    font-size:53px;
+.main #contador {
+    font-size: 53px;
     color: #ede964f1;
     text-shadow: 3px 3px 3px #141417;
     border-radius: 2%;
     background-color: #6ec0b943;
-    padding: 33px;
+    padding: 43px;
     display: flex;
     justify-content: center;
     text-align: center;
+    position: relative;
+    left: 12px;
 }
-.main .div-c{
+
+.main .div-c {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,23 +56,58 @@ body {
     border-radius: 30%;
     transition: all 0.7s;
 }
+
 .btns button:hover {
-    transform: scale(1.2,1.1);
+    transform: scale(1.2, 1.1);
+    cursor: pointer;
 }
 
-.show-mark{
+.show-mark {
     font-size: 33px;
-    text-shadow: 1px 2px 3px #141417;
+    text-shadow: 3px 1px 5px #141417;
     color: #ede964f1;
+    background-color: #6ec0b947;
 }
-.show-mark li{
+
+.show-mark ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    transition: 1s transform;
+}
+
+.show-mark li {
     list-style: none;
     text-transform: uppercase;
-    transition: 1s transform;
     padding: 13px;
+    margin: 0 13px;
+    transition: 1s transform;
 }
-.show-mark li:hover{
-    transform: scale(1.2,1.1);
+
+.show-mark ul:hover {
+    transform: scale(1.2, 1.1);
+    background-color: #f1f1f14f;
+    color: #edc264f1
+}
+
+.titles{
+    font-size: 33px;
+    text-shadow: 3px 1px 5px #141417;
+    color: #ede964f1;
     background-color: #6ec0b947;
-    border-radius: 30%;
+    
+}
+
+.titles ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.titles li {
+    list-style: none;
+    font-size: 33px;
+    margin: 0 23px;
 }
